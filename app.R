@@ -10,7 +10,7 @@ library(leaflet)
 
 # 2.1. Carpeta del proyecto y archivos requeridos
 
-carpeta_app <- "C:/Users/Camilo Martinez/Desktop/Aulas_Uy"
+carpeta_app <- getwd()
 
 if (!dir.exists(carpeta_app)) {
   stop("No se encontró la carpeta: ", carpeta_app, call. = FALSE)
